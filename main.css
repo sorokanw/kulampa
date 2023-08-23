@@ -1,0 +1,684 @@
+@charset "utf-8";
+/*CSS Document */
+/*
+Design by Soroka N.W.
+Version: 1.0.0
+https://sorokanw.github.io/
+Date: 22.08.2023
+*/
+/* -----------------------------------------------------------------------
+
+
+/* reset.css */
+td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+th {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+tr {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+thead {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+tfoot {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+tbody {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+caption {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+table {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+legend {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+label {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+form {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+fieldset {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+li {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+ul {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+ol {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+dd {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+dt {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+dl {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+q {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+img {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+em {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+dfn {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+del {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+code {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+address {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+acronym {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+abbr {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+a {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+pre {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+blockquote {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+p {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h6 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h5 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h4 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h3 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h2 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+h1 {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+iframe {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+object {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+span {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+div {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+body {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+html {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+/* Basic */
+
+html {
+    width=100%;
+    height: 100%;
+    background-color: white;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+body {
+	max-width: 91%;
+	margin: 0 auto;	
+    height: 100%;
+    background-color: white;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: justify;	
+}
+
+
+/*my Styles*/
+a:link {
+	color: wait;
+}
+a:visited {
+}
+a:active {
+}
+a:hover {
+	color: #333;
+}
+
+h1{
+	color: #990000;
+    font-size: 120%;
+}
+
+h2{
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: orange;
+    font-size: 100%;
+}
+
+h3{
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: maroon;
+    font-size: 90%;
+}
+
+h4{
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: maroon;
+    font-size: 150%;
+}
+
+img {
+	margin: 2%;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	text-indent: 10%;
+}
+
+#wrap {
+	width: 91%;
+	margin: 0 auto;
+}
+#page {
+	width: 91%;
+	margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+	margin-top: 2%;
+	border-radius: 10px 10px 0 0;
+	min-height: 30%;
+	margin-bottom: 1%;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.71);
+	box-shadow:0 0 10px rgba(0,0,0,0.71);
+	color: wait;
+}
+
+#header_menu {
+    width: 100%;
+    margin: 1% auto;
+    background: wait;
+	float: left;
+	color: wait;
+}
+
+#header_text {
+	margin: 2% auto;
+	padding: 7% 1%;
+	font-style: italic;
+	color: rgba(0,0,0,0.71);
+}
+
+.leftimg {
+    width: 13.3%;
+	height: 10%;
+	background: rgba(242,242,242,0.71);
+	float: left; /* Выравнивание по левому краю */
+    margin: 7px; /* Отступы вокруг картинки */
+	border: 1px solid gray;
+	padding: 1% 1%;
+	color: wait;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.71);
+	box-shadow:0 0 10px rgba(0,0,0,0.71);
+   }
+   
+.container {
+	height: 50%;
+	text-align: justify;
+	font-weight: bold;
+	padding: 2% auto;
+	background: rgba(242,242,242,0.71);
+	margin-top: 2%;
+	margin-bottom: 1%;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.71);
+	box-shadow:0 0 10px rgba(0,0,0,0.71);	
+}
+
+.footer {
+	color: #fff;
+	text-align: center;
+	background: #505050;
+	min-height: 3%;
+	line-height: 2em;
+	border-radius: 0 0 10px 10px;	
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.71);
+	box-shadow:0 0 10px rgba(0,0,0,0.71);	
+}
